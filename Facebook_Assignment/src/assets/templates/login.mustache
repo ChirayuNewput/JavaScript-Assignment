@@ -1,0 +1,66 @@
+<div id="login-outer-div" class="container-fluid">
+      <div id="login-inner-div" class="container">
+        <div class="row">
+          <div class="col-2"></div>
+          <div id="login-main-div" class="col bg-light">
+            <div class="form-div">
+              <form class="form" id="loginForm">
+                <fieldset
+                  class="form-control bg-success text-center text-white"
+                >
+                  <legend><h3>User Login</h3></legend>
+                  <legend><h6>Enter Your Credential</h6></legend>
+                </fieldset>
+                <div class="form-group">
+                  <br />
+                  <label for="username">Username:-</label>
+                  <input
+                    id="username"
+                    type="text"
+                    class="form-control"
+                    placeholder="Username.."
+                  />
+                  <i
+                    class="fas fa-exclamation-circle"
+                    id="exclamation_username"
+                  ></i>
+                  <i class="fas fa-check-circle" id="verified_username"></i>
+                  <small id="errorMsg_username"></small><br />
+                </div>
+                <div class="form-group">
+                  <label for="password">Password:-</label>
+                  <input
+                    id="password"
+                    type="password"
+                    class="form-control"
+                    placeholder="Password.."
+                  />
+                  <i
+                    class="fas fa-exclamation-circle"
+                    id="exclamation_password"
+                  ></i>
+                  <i class="fas fa-check-circle" id="verified_password"></i>
+                  <small id="errorMsg_password"></small><br />
+                </div>
+                <div class="text-center login">
+                  <button id="login-btn" class="btn btn-outline-success">
+                    LOGIN
+                  </button>
+                </div>
+                <br />
+                <div class="text-center reset">
+                  <button id="reset-btn" class="btn btn-outline-danger">
+                    RESET
+                  </button>
+                </div>
+                <br />
+                <h3 class="text-center bg-danger text-white" id="showInvalid">
+                  Invalid Credential
+                </h3>
+              </form>
+            </div>
+          </div>
+          <div class="col-2"></div>
+        </div>
+      </div>
+    </div>

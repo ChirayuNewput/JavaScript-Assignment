@@ -1,0 +1,13 @@
+{
+    "profileSrc": "'/src/assets/image/avatar-1.png'",
+    "name": "mark",
+    "menuIcon": "'fas fa-ellipsis-v'",
+    "imageSrc":
+      "'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7_k2aZbkrWj1tq7eIVHyWQ8p94tb1ThTzdg&usqp=CAU'",
+    "time": "30",
+    "likeIcon": "'fas fa-heart'",
+    "commentIcon":"'fas fa-comment'",
+    "shareIcon": "'fas fa-share-alt'",
+    "lorem":
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ualias harum magni ea rerum ipsum sint eum! Sunt, autem"
+  }
